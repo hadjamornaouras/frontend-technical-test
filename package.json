@@ -14,16 +14,23 @@
     "node": ">=14.17.2"
   },
   "dependencies": {
+    "@types/jest": "^27.0.2",
+    "enzyme": "^3.11.0",
+    "eslint-plugin-react-hooks": "^4.2.1-alpha-6ecad79cc-20211006",
+    "moment": "^2.29.1",
     "next": "^11.1.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-test-utils": "0.0.1"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.1.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
+    "@types/enzyme": "^3.10.9",
     "@types/node": "^16.6.1",
     "@types/react": "^17.0.18",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "autoprefixer": "^10.3.6",
     "babel-jest": "^27.0.6",
     "eslint": "^7.32.0",
